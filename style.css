@@ -103,3 +103,210 @@ img.hamburgerIcon {
   align-items: center;
   list-style-type: none;
 }
+
+/***** Projects *****/
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80px;
+  height: 100%;
+  width: 100%;
+  padding: 120px 0;
+}
+
+.Title {
+  font-size: 2rem;
+  color: #1c1a19;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  word-wrap: break-word;
+}
+
+.line {
+  width: 80%;
+  height: 0;
+  border: 0.1px #212121 solid;
+}
+
+.topCard {
+  width: 100%;
+  height: auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.topProjectDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.topprojectDetails h4 {
+  font-size: 32px;
+  color: #091e42;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.topprojectDetails p {
+  font-size: 16px;
+  color: #091e42;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.topProjectLang {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+
+.topProjectLang li{
+  padding: 12px;
+  background: white;
+  border: 0.50px #8993A4 solid;
+  display: flex;
+}
+
+.topProjectButton {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px;
+  background: #ff6b00;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.projects {
+  flex: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.projectCard {
+  background-image: url(./assets/ProjectImg/Project1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  padding: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.projectCard:nth-child(2) {
+  background-image: url(./assets/ProjectImg/Project2.png);
+}
+
+.projectCard:nth-child(3) {
+  background-image: url(./assets/ProjectImg/Project3.png);
+}
+
+.projectCard:nth-child(4) {
+  background-image: url(./assets/ProjectImg/Project1.png);
+}
+
+.projectCard:nth-child(5) {
+  background-image: url(./assets/ProjectImg/Project2.png);
+}
+
+.projectCard:nth-child(6) {
+  background-image: url(./assets/ProjectImg/Project3.png);
+}
+
+.projectCard h4 {
+  color: white;
+  font-size: 32px;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  line-height: 44px;
+  word-wrap: break-word;
+  padding: 0 30px 0 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.projectCard p {
+  color: white;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 30px 0 25px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.projectLang {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  max-width: 100%;
+  margin-left: 5%;
+}
+
+.projectLang li {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.24);
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;" ;
+  font-weight: 500;
+  line-height: 20px;
+  max-width: 100%;
+}
+
+.seeProjectButton {
+  background: #ff6b00;
+  position: relative;
+  width: 100%;
+}
+
+.seeProject {
+  padding: 12px;
+  background: #ff6b00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.seeProject h4 {
+  color: white;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
