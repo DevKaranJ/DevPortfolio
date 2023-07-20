@@ -403,7 +403,7 @@ img.hamburgerIcon {
   text-align: center;
   color: white;
   font-size: 22px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 42.67px;
 }
@@ -439,10 +439,9 @@ img.hamburgerIcon {
   text-align: center;
   color: #172B4D;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "inter", sans-serif;";
   font-weight: 700;
   line-height: 44px;
-  word-wrap: break-word;
 }
 
 .formCard {
@@ -503,7 +502,7 @@ img.hamburgerIcon {
   width: 60%;
   height: 48px;
   padding: 12px;
-  background: #FF6B00;
+  background: #ff6b00;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -519,18 +518,18 @@ img.hamburgerIcon {
   text-align: center;
   color: white;
   font-size: 17px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.51px;
-  background: #FF6B00;
+  background: #ff6b00;
   border: transparent;
 }
 
 .line3 {
   width: 100%;
   height: 0;
-  border: 0.1px #DFE1E6 solid;
+  border: 0.1px #dfe1e6 solid;
 }
 
 /***** Footer *****/
@@ -565,7 +564,6 @@ img.hamburgerIcon {
   left: 120px;
   top: 21px;
   position: absolute;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
-
