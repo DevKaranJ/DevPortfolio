@@ -275,7 +275,7 @@ img.hamburgerIcon {
   display: flex;
   color: white;
   font-size: 15px;
-  font-family: "Inter", sans-serif ;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 20px;
   max-width: 100%;
@@ -385,7 +385,7 @@ img.hamburgerIcon {
   gap: 24px;
   color: white;
   font-size: 32px;
-  font-family: inaiMathi;
+  font-family: "inaiMathi", sans-serif;
   font-weight: 700;
   line-height: 44px;
 }
@@ -439,7 +439,7 @@ img.hamburgerIcon {
   text-align: center;
   color: #172B4D;
   font-size: 32px;
-  font-family: "inter", sans-serif;";
+  font-family: "inter", sans-serif;
   font-weight: 700;
   line-height: 44px;
 }
@@ -473,7 +473,7 @@ img.hamburgerIcon {
   border: none;
   border-bottom: 0.5px solid #dbd8d7;
   margin-bottom: 24px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -485,7 +485,7 @@ img.hamburgerIcon {
 .textinputMessage {
   width: 100%;
   padding: 12px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter",sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -517,6 +517,7 @@ img.hamburgerIcon {
   text-align: center;
   color: white;
   font-size: 17px;
+  font-family: "roboto",sans-serif;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.51px;
