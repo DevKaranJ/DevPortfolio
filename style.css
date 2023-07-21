@@ -173,10 +173,10 @@ img.hamburgerIcon {
   gap: 12px;
 }
 
-.topProjectLang li{
+.topProjectLang li {
   padding: 12px;
   background: white;
-  border: 0.50px #8993A4 solid;
+  border: 0.50px #8993a4 solid;
   display: flex;
 }
 
@@ -390,7 +390,6 @@ img.hamburgerIcon {
   line-height: 44px;
 }
 
-
 .skillCards ul {
   list-style-type: none;
   padding: 0;
@@ -437,7 +436,7 @@ img.hamburgerIcon {
   width: 100%;
   height: 100vh;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   font-size: 32px;
   font-family: "inter", sans-serif;
   font-weight: 700;
@@ -473,7 +472,7 @@ img.hamburgerIcon {
   border: none;
   border-bottom: 0.5px solid #dbd8d7;
   margin-bottom: 24px;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -485,7 +484,7 @@ img.hamburgerIcon {
 .textinputMessage {
   width: 100%;
   padding: 12px;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -517,7 +516,7 @@ img.hamburgerIcon {
   text-align: center;
   color: white;
   font-size: 17px;
-  font-family: "roboto",sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.51px;
