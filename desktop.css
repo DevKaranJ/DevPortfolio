@@ -142,14 +142,13 @@
   }
 
   .projectCard .seeProjectButton {
-  opacity: 0;
-  pointer-events: none;
-  }
+    opacity: 0;
+    pointer-events: none;
+}
 
-  .projectCard:hover .seeProjectButton {
-  opacity: 1;
-  pointer-events: auto;
-  }
+.projectCard:hover .seeProjectButton {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 /***** About me *****/
