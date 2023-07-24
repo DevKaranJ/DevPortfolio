@@ -17,11 +17,24 @@
         </div>
         <nav class=navigation>
           <ul class="navLinks">
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+        <div id="menuContent" class="menu-content">
+          <button class="close-button" type="button">
+            <img src="./assets/Buttons/mobileMenuClose.png" alt="Close" class="close-icon">
+          </button>
+          <ul class="mobile-menu" id="menu">
+            <li class="menuItem"><a href="#Portfolio" class="menu-target">Portfolio</a></li>
+            <img src="./assets/others/Separtor.png">
+            <li class="menuItem"><a href="#about" class="menu-target">About</a></li>
+            <img src="./assets/others/Separtor.png">
+            <li class="menuItem"><a href="#contact" class="menu-target">Contact</a></li>
+            <img src="./assets/others/Separtor.png">
+          </ul>
+        </div>
       </section>
       <!-- End Header -->
       <!-- intro section-->
@@ -39,21 +52,21 @@
            don’t hesitate to contact me.
           </p>
         <div class="introBackground"></div>
-           <div class="SocialMedia">
+          <div class="SocialMedia">
           <ul class="socialConnect">
-            <li><a href="https://github.com/">
+            <li><a href="https://github.com/" target="_blank" rel="noopener">
               <img src="assets/socialIcons/Icon -GitHub.png"/>
             </a></li>
-            <li><a href="https://www.linkedin.com/">
+            <li><a href="https://www.linkedin.com/in/karan-shah-2a116262" target="_blank" rel="noopener">
               <img src="assets/socialIcons/LinkdinIcon.png"/>
             </a></li>
-            <li><a href="https://angel.com">
+            <li><a href="https://angel.co/karan_shah2002" target="_blank" rel="noopener">
               <img src="assets/socialIcons/angellistIcon.png"/>
             </a></li>
-            <li><a href="https://twitter.com/">
+            <li><a href="https://twitter.com/KaranShah144" target="_blank" rel="noopener">
               <img src="assets/socialIcons/twitterIcon.png"/>
             </a></li>
-            <li><a href="https://medium.com">
+            <li><a href="https://medium.com/@karanshah144" target="_blank" rel="noopener">
               <img src="assets/socialIcons/mediumIcon.png"/>
             </a></li>
           </ul>
@@ -61,7 +74,7 @@
       </section>
         <!-- End intro section -->
         <!-- Projects -->
-        <section class="project">
+        <section class="project" id="Portfolio">
           <div class="title">
             <h2>My Recent Works</h2>
             <div class="line"></div>
@@ -175,11 +188,11 @@
         </section>
         <!-- End projects section -->
         <!-- About Me -->
-        <section class="about">
+        <section class="about" id="about">
           <div class="aboutMe">
           <h5>About me</h5>
           <p>Hello I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-          <button class="resumeButton">
+          <button class="resumeButton" type="button">
             <a href="./assets/Resume/Resume.pdf" class="resume">Get my resume</a>
           </button>
           </div>
@@ -230,7 +243,7 @@
         </section>
         <!-- End Skills section -->
          <!--the contact section-->
-         <section class=contactForm>
+         <section class=contactForm id="contact">
           <div class=contactHeading>
             <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
           </div>
@@ -245,7 +258,7 @@
                         placeholder="Write me something..." maxlength="500" required></textarea>
                 </fieldset>
             <div class="contactButton">
-              <button class="getInTouch">Get in touch</button>
+              <button class="getInTouch" type="button">Get in touch</button>
             </div>
           </div>
           <div class="line3"></div>
@@ -276,5 +289,7 @@
         <div class="bottomLineEnd"></div>
       </div>
       <!-- End Footer -->
+      <!-- Scripts -->
+      <script src="script.js"></script>
 </body>
 </html>

@@ -216,7 +216,7 @@
   .roundIcon {
     width: 20px;
     height: 20px;
-    border: 50%;
+    border-radius: 50%;
     background-color: #f55800;
   }
 
