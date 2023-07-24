@@ -4,7 +4,7 @@
     display: none;
   }
 
-  .logo{
+  .logo {
     width: 50%;
     padding: 0 5rem;
   }
@@ -21,7 +21,7 @@
     flex-direction: row-reverse;
     padding: 0 5rem;
   }
-  
+
   .navLinks {
     padding-left: 12px;
     padding-right: 12px;
@@ -32,7 +32,7 @@
     gap: 10px;
     display: flex;
   }
-  
+
   .navLinks li {
     text-align: center;
     color: white;
@@ -42,11 +42,10 @@
     line-height: 20px;
     list-style: none;
   }
-  
+
   .navLinks li:hover {
     color: #f55800;
   }
-
 }
 
 /***** Intro *****/
@@ -141,16 +140,16 @@
     gap: 20px;
     width: 100%;
   }
+
   .projectCard .seeProjectButton {
   opacity: 0;
   pointer-events: none;
   }
+
   .projectCard:hover .seeProjectButton {
   opacity: 1;
   pointer-events: auto;
   }
-
-
 }
 
 /***** About me *****/
@@ -246,7 +245,7 @@
     flex-direction: row;
     padding-bottom: 0;
   }
-  
+
   .contactCard {
     height: 45vh;
   }
