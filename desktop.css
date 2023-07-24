@@ -1,12 +1,65 @@
+/***** Header *****/
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .logo{
+    width: 50%;
+    padding: 0 5rem;
+  }
+
+  .toolbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navigation {
+    width: 100%;
+    gap: 8px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    padding: 0 5rem;
+  }
+  
+  .navLinks {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+  
+  .navLinks li {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: "inter", sans-serif;";
+    font-weight: 600;
+    line-height: 20px;
+    list-style: none;
+  }
+  
+  .navLinks li:hover {
+    color: #f55800;
+  }
+
+}
+
 /***** Intro *****/
 @media screen and (min-width: 768px) {
   .headline {
     background: #1c1a19 url(./assets/background/IntroDesktopbackground.png) no-repeat right 30px;
+    background-size: 60%;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     gap: 24px;
     display: inline-flex;
+    padding-left: 5rem;
   }
 
   .headline h1 {
@@ -88,6 +141,16 @@
     gap: 20px;
     width: 100%;
   }
+  .projectCard .seeProjectButton {
+  opacity: 0;
+  pointer-events: none;
+  }
+  .projectCard:hover .seeProjectButton {
+  opacity: 1;
+  pointer-events: auto;
+  }
+
+
 }
 
 /***** About me *****/
@@ -182,6 +245,10 @@
     display: flex;
     flex-direction: row;
     padding-bottom: 0;
+  }
+  
+  .contactCard {
+    height: 45vh;
   }
 
   .line3 {

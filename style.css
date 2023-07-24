@@ -162,7 +162,7 @@ img.hamburgerIcon {
   gap: 12px;
 }
 
-.topprojectDetails h4 {
+.topProjectDetails h4 {
   font-size: 32px;
   color: #091e42;
   font-family: "Crete Round", serif;
@@ -201,6 +201,10 @@ img.hamburgerIcon {
   align-items: center;
   gap: 10px;
   display: inline-flex;
+}
+
+.topProjectButton:hover {
+  background: #f55800;
 }
 
 .projects {
@@ -590,3 +594,4 @@ img.hamburgerIcon {
   background: #0d151e;
   border-radius: 10px;
 }
+
