@@ -150,6 +150,7 @@
     opacity: 1;
     pointer-events: auto;
 }
+}
 
 /***** About me *****/
 @media screen and (min-width: 768px) {
