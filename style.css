@@ -648,3 +648,8 @@ img.hamburgerIcon {
   font-weight: 600;
   line-height: 44px;
 }
+
+.mobile-menu .menuItem a {
+  color: #fff;
+  text-decoration: none;
+}
