@@ -1,0 +1,260 @@
+/***** Header *****/
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .logo {
+    width: 50%;
+    padding: 0 5rem;
+  }
+
+  .toolbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navigation {
+    width: 100%;
+    gap: 8px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    padding: 0 5rem;
+  }
+
+  .navLinks {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+
+  .navLinks li {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    list-style: none;
+  }
+
+  .navLinks li:hover {
+    color: #f55800;
+  }
+}
+
+/***** Intro *****/
+@media screen and (min-width: 768px) {
+  .headline {
+    background: #1c1a19 url(./assets/background/IntroDesktopbackground.png) no-repeat right 30px;
+    background-size: 60%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+    padding-left: 5rem;
+  }
+
+  .headline h1 {
+    width: 75%;
+    height: 160px;
+    font-size: 72px;
+    line-height: 81.5px;
+  }
+
+  .headline h2 {
+    width: 75%;
+    height: 100%;
+  }
+
+  .headline .p-wrapper {
+    overflow: hidden;
+  }
+
+  .headline p {
+    font-size: 20px;
+    margin-right: 42%;
+  }
+
+  .SocialMedia {
+    position: absolute;
+    right: 96.5%;
+    top: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialConnect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .socialConnect li {
+    margin: 5px -40px;
+  }
+
+  /***** Projects *****/
+  .title {
+    width: 100%;
+    height: 52px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    display: inline-flex;
+  }
+
+  .title h2 {
+    color: #091e42;
+    font-size: 40px;
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    line-height: 52px;
+    word-wrap: break-word;
+  }
+
+  .line {
+    width: 100%;
+    height: 0.5px;
+    border: 0.5px #212121 solid;
+  }
+
+  .topCard {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projects {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+
+  .projectCard .seeProjectButton {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .projectCard:hover .seeProjectButton {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+/***** About me *****/
+@media screen and (min-width: 768px) {
+  .aboutMe {
+    background-image: url(./assets/background/AboutMeDesktopbackground.png);
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: right 45%;
+  }
+
+  .aboutMe h5,
+  .aboutMe p {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .aboutMe p {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /***** Skills *****/
+  .skills {
+    background: #1c1a19;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 130px 100px;
+  }
+
+  .skillCards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .skillTitle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    border-radius: 4px;
+  }
+
+  .squareIcon {
+    width: 20px;
+    height: 20px;
+    background-color: #f55800;
+  }
+
+  .roundIcon {
+    width: 20px;
+    height: 20px;
+    border: 50%;
+    background-color: #f55800;
+  }
+
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills li {
+    color: white;
+    font-size: 22px;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.9;
+    word-wrap: break-word;
+    padding: 12px;
+    border-radius: 4px;
+  }
+}
+
+/***** ContactForm *****/
+@media screen and (min-width: 768px) {
+  .contactForm {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+
+  .contactCard {
+    height: 45vh;
+  }
+
+  .line3 {
+    display: none;
+  }
+
+  .bottomLine {
+    display: none;
+  }
+}
