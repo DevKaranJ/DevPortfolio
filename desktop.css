@@ -144,12 +144,12 @@
   .projectCard .seeProjectButton {
     opacity: 0;
     pointer-events: none;
-}
-
-.projectCard:hover .seeProjectButton {
+  }
+  
+  .projectCard:hover .seeProjectButton {
     opacity: 1;
     pointer-events: auto;
-}
+  }
 }
 
 /***** About me *****/
