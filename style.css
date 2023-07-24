@@ -623,12 +623,6 @@ img.hamburgerIcon {
   border-radius: 10px 10px 0 0;
 }
 
-.light {
-  width: 100%;
-  max-width: 400px;
-  margin-top: 370px;
-}
-
 .menu-content.show {
   display: block;
 }
@@ -639,17 +633,17 @@ img.hamburgerIcon {
   height: 400px;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  gap: 25px;
 }
 
 .menu-content li {
   font-size: 32px;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 44px;
 }
 
 .mobile-menu .menuItem a {
-  color: #fff;
+  color: #fff5e1;
   text-decoration: none;
 }
