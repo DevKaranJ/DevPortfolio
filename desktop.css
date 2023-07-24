@@ -175,3 +175,20 @@
     border-radius: 4px;
   }
 }
+
+/***** ContactForm *****/
+@media screen and (min-width: 768px) {
+  .contactForm {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+
+  .line3 {
+    display: none;
+  }
+
+  .bottomLine {
+    display: none;
+  }
+}
