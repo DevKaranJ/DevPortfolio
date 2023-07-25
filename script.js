@@ -37,3 +37,30 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// Preserve data in the browser
+
+const contactForm = document.querySelector('#form');
+
+function saveFormData() {
+  const formData = {
+    name: contactForm.querySelector("[name='name']").value,
+    email: contactForm.querySelector("[name='email']").value,
+    message: contactForm.querySelector("[name='message']").value,
+  };
+
+  localStorage.setItem('contactFormData', JSON.stringify(formData));
+}
+
+contactForm.addEventListener('input', saveFormData);
+
+function loadFormData() {
+  const formData = JSON.parse(localStorage.getItem('contactFormData'));
+  if (formData) {
+    contactForm.querySelector("[name='name']").value = formData.name;
+    contactForm.querySelector("[name='email']").value = formData.email;
+    contactForm.querySelector("[name='message']").value = formData.message;
+  }
+}
+
+loadFormData();
