@@ -1,4 +1,4 @@
-//Mobile menu
+// Mobile menu
 const hamburger = document.querySelector('.hamburger');
 const menuContent = document.querySelector('#menuContent');
 
@@ -24,7 +24,6 @@ menuItems.forEach((menuItem) => {
 const form = document.getElementById('form');
 const emailInput = document.querySelector("input[name='email']");
 const errorEmail = document.getElementById('errorEmail');
-
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
