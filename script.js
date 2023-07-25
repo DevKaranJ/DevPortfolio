@@ -54,10 +54,6 @@ function saveFormData() {
 
 contactForm.addEventListener('input', saveFormData);
 
-// Paste your code below this line
-
-loadFormData();
-
 function loadFormData() {
   const formData = JSON.parse(localStorage.getItem('contactFormData'));
   if (formData) {
@@ -66,3 +62,5 @@ function loadFormData() {
     contactForm.querySelector("[name='message']").value = formData.message;
   }
 }
+
+loadFormData();
