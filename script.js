@@ -57,3 +57,12 @@ contactForm.addEventListener('input', saveFormData);
 // Paste your code below this line
 
 loadFormData();
+
+function loadFormData() {
+  const formData = JSON.parse(localStorage.getItem('contactFormData'));
+  if (formData) {
+    contactForm.querySelector("[name='name']").value = formData.name;
+    contactForm.querySelector("[name='email']").value = formData.email;
+    contactForm.querySelector("[name='message']").value = formData.message;
+  }
+}
