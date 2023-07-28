@@ -23,7 +23,7 @@
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   padding: 20px 0;
 }
@@ -37,7 +37,7 @@
 }
 
 .modal-content ul li {
-  border: 0.50px #979493 solid;
+  border: 0.5px #979493 solid;
   display: flex;
   font-family: 'poppins', sans-serif;
   font-size: 13px;
