@@ -166,7 +166,10 @@ button.addEventListener('click', () => {
   openModal(0);
 });
 
-const closeButton = document.getElementById('closeModalButton');
-closeButton.addEventListener('click', () => {
-  closeModal();
-});
+function closeModal() {
+  const closeButton = document.getElementById('closeModalButton');
+
+  closeButton.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
+}
