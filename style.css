@@ -647,3 +647,7 @@ img.hamburgerIcon {
   color: #fff5e1;
   text-decoration: none;
 }
+
+.modal-content p {
+  margin: 0 0 0 20px;
+}
