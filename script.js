@@ -71,12 +71,28 @@ const projects = [
     name: 'Multi-Post Stories',
     cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    image: 'assets/ProjectImg/modalProject.png',
+    image: 'assets/ProjectImg/TopProjectImg.png',
     live_version: '#',
     link_source: '#',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Profesional Art Printing Data',
+    cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    image: 'assets/ProjectImg/TopProjectImg.png',
+    live_version: '#',
+    link_source: '#',
+  },
+  {
+    name: 'Data Dashboard Healthcare',
+    cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    image: 'assets/ProjectImg/modal2.png',
+    live_version: '#',
+    link_source: '#',
+  },
+  {
+    name: 'Website Portfolio ',
     cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
     image: 'assets/ProjectImg/modalProject.png',
@@ -84,7 +100,15 @@ const projects = [
     link_source: '#',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Profesional Art Printing Data',
+    cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    image: 'assets/ProjectImg/modal2.png',
+    live_version: '#',
+    link_source: '#',
+  },
+  {
+    name: 'Data Dashboard Healthcare',
     cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
     image: 'assets/ProjectImg/modalProject.png',
@@ -92,31 +116,7 @@ const projects = [
     link_source: '#',
   },
   {
-    name: 'Multi-Post Stories',
-    cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    image: 'assets/ProjectImg/modalProject.png',
-    live_version: '#',
-    link_source: '#',
-  },
-  {
-    name: 'Multi-Post Stories',
-    cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    image: 'assets/ProjectImg/modalProject.png',
-    live_version: '#',
-    link_source: '#',
-  },
-  {
-    name: 'Multi-Post Stories',
-    cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    image: 'assets/ProjectImg/modalProject.png',
-    live_version: '#',
-    link_source: '#',
-  },
-  {
-    name: 'Multi-Post Stories',
+    name: 'Website Portfolio ',
     cardDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
     image: 'assets/ProjectImg/modalProject.png',
@@ -125,8 +125,8 @@ const projects = [
   },
 ];
 
-function openModal() {
-  const projectInfo = projects[0];
+function openModal(projectIndex) {
+  const projectInfo = projects[projectIndex];
 
   document.getElementById('modalProjectName').textContent = projectInfo.name;
   document.getElementById('modalProjectDescription').textContent = projectInfo.cardDetail;
@@ -148,8 +148,6 @@ function openModal() {
   const modal = document.getElementById('modal');
   modal.style.display = 'block';
 }
-
-openModal(0);
 
 function closeModal() {
   const modal = document.getElementById('modal');
