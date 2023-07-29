@@ -147,6 +147,10 @@ function openModal(index) {
 
   const modal = document.getElementById('modal');
   modal.style.display = 'block';
+
+  modal.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
 }
 
 function closeModal() {
@@ -160,3 +164,5 @@ window.onclick = (event) => {
     modal.style.display = 'none';
   }
 };
+
+showModal(0);
