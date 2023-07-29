@@ -136,7 +136,7 @@ function openModal(index) {
 
   const skillsList = document.getElementById('modalProjectSkills');
   skillsList.innerHTML = '';
-  projectInfo.skills.forEach(skill => {
+  projectInfo.skills.forEach((skill) => {
     const li = document.createElement('li');
     li.textContent = skill;
     skillsList.appendChild(li);
@@ -153,13 +153,6 @@ function closeModal() {
   const modal = document.getElementById('modal');
   modal.style.display = 'none';
 }
-
-function showModal(index) {
-  openModal(index);
-
-  // Add a click event listener to the modal
   document.getElementById('modal').addEventListener('click', () => {
     closeModal();
   });
-}
-
