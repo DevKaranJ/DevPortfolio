@@ -160,16 +160,3 @@ window.onclick = (event) => {
     modal.style.display = 'none';
   }
 };
-
-const button = document.getElementById('openModalButton');
-button.addEventListener('click', () => {
-  openModal(0);
-});
-
-function closeModal() {
-  const closeButton = document.getElementById('closeModalButton');
-
-  closeButton.addEventListener('click', () => {
-    modal.style.display = 'none';
-  });
-}
