@@ -149,6 +149,8 @@ function openModal(projectIndex) {
   modal.style.display = 'block';
 }
 
+openModal();
+
 function closeModal() {
   const modal = document.getElementById('modal');
   modal.style.display = 'none';
