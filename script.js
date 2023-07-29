@@ -147,10 +147,6 @@ function openModal(index) {
 
   const modal = document.getElementById('modal');
   modal.style.display = 'block';
-
-  modal.addEventListener('click', () => {
-    modal.style.display = 'none';
-  });
 }
 
 function closeModal() {
@@ -158,11 +154,12 @@ function closeModal() {
   modal.style.display = 'none';
 }
 
-window.onclick = (event) => {
-  const modal = document.getElementById('modal');
-  if (event.target === modal) {
-    modal.style.display = 'none';
-  }
-};
+function showModal(index) {
+  openModal(index);
 
-showModal(0);
+  // Add a click event listener to the modal
+  document.getElementById('modal').addEventListener('click', () => {
+    closeModal();
+  });
+}
+
