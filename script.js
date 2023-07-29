@@ -125,8 +125,8 @@ const projects = [
   },
 ];
 
-function openModal(index) {
-  const projectInfo = projects[index];
+function openModal() {
+  const projectInfo = projects[0];
 
   document.getElementById('modalProjectName').textContent = projectInfo.name;
   document.getElementById('modalProjectDescription').textContent = projectInfo.cardDetail;
@@ -149,10 +149,14 @@ function openModal(index) {
   modal.style.display = 'block';
 }
 
+openModal(0);
+
 function closeModal() {
   const modal = document.getElementById('modal');
   modal.style.display = 'none';
 }
+
   document.getElementById('modal').addEventListener('click', () => {
     closeModal();
   });
+
