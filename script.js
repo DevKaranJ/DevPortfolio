@@ -156,7 +156,6 @@ function closeModal() {
   modal.style.display = 'none';
 }
 
-  document.getElementById('modal').addEventListener('click', () => {
-    closeModal();
-  });
-
+document.getElementById('modal').addEventListener('click', () => {
+  closeModal();
+});
