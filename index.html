@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE-edge">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="desktop.css">
+<link rel="stylesheet" href="modal.css">
 <title>My Portfolio</title>
 </head>
 <body>
@@ -90,7 +91,7 @@
               <li>Bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <a href="#" class="topProjectButton">See project</a>
+            <a href="#" class="topProjectButton" onclick="openModal(0)">See project</a>
           </div>
         </div>
         <section class="projects">
@@ -105,7 +106,7 @@
               </ul>
               <div class="seeProjectButton">
                 <div class="seeProject">
-                  <h4>See project</h4>
+                  <a href="#" class="seeProjectLive" onclick="openModal(1)">See project</a>
                 </div>
               </div>          
             </div>
@@ -120,7 +121,7 @@
           </ul>
           <div class="seeProjectButton">
             <div class="seeProject">
-              <h4>See project</h4>
+              <a href="#" class="seeProjectLive" onclick="openModal(2)">See project</a>
             </div>
           </div>          
         </div>
@@ -135,7 +136,7 @@
           </ul>
           <div class="seeProjectButton">
             <div class="seeProject">
-              <h4>See project</h4>
+              <a href="#" class="seeProjectLive" onclick="openModal(3)">See project</a>
             </div>
           </div>          
         </div>
@@ -150,7 +151,7 @@
           </ul>
           <div class="seeProjectButton">
             <div class="seeProject">
-              <h4>See project</h4>
+              <a href="#" class="seeProjectLive" onclick="openModal(4)">See project</a>
             </div>
           </div>          
         </div>
@@ -165,7 +166,7 @@
           </ul>
           <div class="seeProjectButton">
             <div class="seeProject">
-              <h4>See project</h4>
+              <a href="#" class="seeProjectLive" onclick="openModal(5)">See project</a>
             </div>
           </div>          
         </div>
@@ -180,13 +181,33 @@
           </ul>
           <div class="seeProjectButton">
             <div class="seeProject">
-              <h4>See project</h4>
+              <a href="#" class="seeProjectLive" onclick="openModal(6)">See project</a>
             </div>
           </div>          
         </div>
       </section>
         </section>
         <!-- End projects section -->
+        <!-- Modal Window -->
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modalProjectName"></h3>
+            <ul id="modalProjectSkills"></ul>
+            <div class="desktopModalDesign">
+            <img class="modalProjectImg" id="modalProjectImage" src="" alt="Project Image">
+            <div>
+            <p id="modalProjectDescription"></p>
+          <div class="modalProjectLinks">
+            <a id="modalLiveVersionLink" href="#" target="_blank">Live Version</a>
+            <a id="modalSourceLink" href="#" target="_blank">Source Code</a>
+          </div>
+            </div>
+            </div>  
+          
+          </div>
+        </div>
+        <!-- End Modal Window -->
         <!-- About Me -->
         <section class="about" id="about">
           <div class="aboutMe">

@@ -314,7 +314,7 @@ img.hamburgerIcon {
   margin: 0 auto;
 }
 
-.seeProject h4 {
+.seeProjectLive {
   color: white;
   font-size: 17px;
   font-family: "Inter", sans-serif;
@@ -323,6 +323,7 @@ img.hamburgerIcon {
   letter-spacing: 0.51px;
   max-width: 100%;
   margin: 0 auto;
+  text-decoration: none;
 }
 
 /******** About-Me *****/
@@ -646,4 +647,8 @@ img.hamburgerIcon {
 .mobile-menu .menuItem a {
   color: #fff5e1;
   text-decoration: none;
+}
+
+.modal-content p {
+  margin: 0 0 0 20px;
 }
